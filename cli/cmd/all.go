@@ -21,9 +21,7 @@ var AllCommand = &cobra.Command{
 			return
 		}
 		defer resp.Body.Close()
-		//body, err := io.ReadAll(resp.Body)
-		//fmt.Println("Body de la reponse:")
-		//fmt.Println(string(body))
+
 		if resp.StatusCode != http.StatusOK {
 			fmt.Println("La requête a échoué avec le code de statut:", resp.Status)
 			return
