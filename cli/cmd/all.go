@@ -10,7 +10,7 @@ import (
 )
 
 var AllCommand = &cobra.Command{
-	Use:   "all",
+	Use:   "list",
 	Short: "get all orders ID",
 	Long:  "get all orders ID",
 	Run: func(cmd *cobra.Command, args []string) {
