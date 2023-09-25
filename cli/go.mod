@@ -1,4 +1,4 @@
-module github.com/dewey-typical/orders-api/cli
+module github.com/dewey-typical/orders-project/cli
 
 go 1.20
 
