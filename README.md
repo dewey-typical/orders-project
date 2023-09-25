@@ -27,7 +27,7 @@ base endpoint : `http://localhost:3000/orders`
 | `PUT`| update order |
 | `DELETE` /{id} | delete order by id |
 
-### use the cli
+### use the cli 
 ```bash
 cd cli
 
